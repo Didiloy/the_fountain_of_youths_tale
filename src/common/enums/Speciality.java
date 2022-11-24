@@ -4,5 +4,7 @@ public enum Speciality {
     ASTRONOMY,
     FOOD,
     WEAPON,
-    MEDICINE
+    MEDICINE,
+    STRATEGY,
+    NONE
 }

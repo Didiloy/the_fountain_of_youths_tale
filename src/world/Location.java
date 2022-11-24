@@ -14,6 +14,7 @@ public abstract class Location {
 
     public Location(String name){
         this.name = name;
+        //TODO parse les fichier appelé par le nom de la planete pour avoir le lore;
     }
 
     public NPCharacter getCharacter() {
