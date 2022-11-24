@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="" />
+    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="deleted eclipse file">
+      <change afterPath="$PROJECT_DIR$/src/common/files/FileHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/files/NotAllFilesException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/Astronomiya.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/Belli.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/Dimidium.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/Enoplos.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/Farmako.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/LastPlanet.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/Najemnik.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/Zounkla.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/character/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/Earth.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/Earth.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Astronomiya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Astronomiya.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Belli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Belli.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Dimidium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Dimidium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Earth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Earth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Enoplos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Enoplos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Farmako.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Farmako.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/LastPlanet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/LastPlanet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Najemnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Najemnik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Zounkla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Zounkla.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,13 +52,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Documents/Documents/GitHub/the_fountain_of_youths_tale"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Documents/Documents/GitHub/the_fountain_of_youths_tale&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="the_fountain_of_youths_tale" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,6 +85,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669277010610</updated>
     </task>
+    <task id="LOCAL-00001" summary="deleted eclipse file">
+      <created>1669294403565</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669294403565</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -53,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="deleted eclipse file" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted eclipse file" />
   </component>
 </project>

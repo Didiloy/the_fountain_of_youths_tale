@@ -4,19 +4,19 @@ import character.NPCharacter;
 import items.Item;
 import world.Location;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Player {
     private List<NPCharacter> crew =  new ArrayList();
     private List<Item> items = new ArrayList();
     private Location currentLocation;
 
-    Player(){
-        this.items.add(items.getName());
-        this.currentLocation = world.getName();
+    public Player(){
+//        this.currentLocation = world.getName();
     }
 
-    public List<add_crew(){
-        this.crew.add();
+    public void add_crew(NPCharacter npc){
+        this.crew.add(npc);
     }
 }
 
