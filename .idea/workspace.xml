@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="created the parseArgs helper">
+    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="fixed the \n interpretation in the map of file helper&#10;created the parseAnswer function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/files/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/files/FileHelper.java" afterDir="false" />
@@ -106,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669387304287</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixed the \n interpretation in the map of file helper&#10;created the parseAnswer function">
+      <created>1669391973042</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669391973042</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +134,7 @@
     <MESSAGE value="modified gitignore" />
     <MESSAGE value="exits of the planets" />
     <MESSAGE value="created the parseArgs helper" />
-    <option name="LAST_COMMIT_MESSAGE" value="created the parseArgs helper" />
+    <MESSAGE value="fixed the \n interpretation in the map of file helper&#10;created the parseAnswer function" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the \n interpretation in the map of file helper&#10;created the parseAnswer function" />
   </component>
 </project>

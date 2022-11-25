@@ -1,0 +1,15 @@
+storyFromEarth::The player is alone with McGyver in is ship so it doesn't know how to navigate well. \nhe was arrested by the coast guard of the planet and taken prisoner. \nafter 3 days, he was brought before the king of Zounkla and asked to told his story.
+choice1_1::talk about the fountain
+choice1_0::hide it to the king but he has a mind reader so he know
+choice1_story::"Look what you did dude !" said McGyver, "Everything is because of you, we are lost in a fucking dungeon in god know which fucking planet". \nThey started to fight. \nSuddenly, the hero stops and tells his sidekick to shut up and listen, there was someone coming. The princess of the planet enter the room and tell "I heard you spoke to my father. I always wanted to find the fountains of youth, if you take me with you I'll help you escape and I'll provide food for the crew as you do not seems to eat very well".
+choice2_0::hire diana
+choice2_1::do not hire diana
+storyFromAstronomiya::With the help of their navigator, the heroes were able to enter the planet without being spotted by the coast guard. The navigator advised them to go to a well known black market on this planet where they could find food.
+choice3_0::go to the black market
+choice3_1::don't go to the black market
+choice3_1_story::don't find someone to provide food, get out of the planet
+choice3_0_story::find bread Grills
+choice4_0::hire bread grills
+choice4_1::don't hire bread grills
+choice4_1_story::don't have anyone to provide food, get out of the planets
+choice4_0_story::now have a new crew member that can provide food get out of the planet
