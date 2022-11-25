@@ -9,4 +9,16 @@ public class Earth extends Location {
         super(name);
         this.character = new NPCharacter("McGryver", Speciality.NONE);
     }
+
+    @Override
+    public void createExits() {
+        this.exits.replace("Enoplos", true);
+        this.exits.replace("Zounkla", true);
+        this.exits.replace("Astronomiya", true);
+    }
+
+    @Override
+    public void tellStory() {
+
+    }
 }

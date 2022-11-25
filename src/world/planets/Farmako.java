@@ -9,4 +9,15 @@ public class Farmako extends Location {
         super(name);
         this.character = new NPCharacter("Pastor", Speciality.MEDICINE);
     }
+
+    @Override
+    public void createExits() {
+        this.exits.replace("Belli", true);
+        this.exits.replace("LastPlanet", true);
+    }
+
+    @Override
+    public void tellStory() {
+
+    }
 }

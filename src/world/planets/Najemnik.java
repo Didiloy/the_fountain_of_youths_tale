@@ -10,4 +10,15 @@ public class Najemnik extends Location {
         this.character = new NPCharacter("Army", Speciality.NONE);
     }
 
+    @Override
+    public void createExits() {
+        this.exits.replace("Farmako", true);
+        this.exits.replace("LastPlanet", true);
+    }
+
+    @Override
+    public void tellStory() {
+
+    }
+
 }

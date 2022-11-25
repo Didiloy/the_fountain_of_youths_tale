@@ -1,4 +1,4 @@
-package Player;
+package player;
 
 import character.NPCharacter;
 import items.Item;

@@ -10,4 +10,15 @@ public class Belli extends Location {
         this.character = new NPCharacter("Napologon", Speciality.STRATEGY);
 
     }
+
+    @Override
+    public void createExits() {
+        this.exits.replace("LastPlanet", true);
+        this.exits.replace("Najemnik", true);
+    }
+
+    @Override
+    public void tellStory() {
+
+    }
 }

@@ -38,7 +38,7 @@
         <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="upeTE7VXBEhJt" name="Exit*"/>
         <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" elementReference="ucTHxaixzpLHP" isRoot="false" xmi.id="uQ8XE5wFPofSX" name="Map&lt;String,Exit>"/>
         <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" elementReference="ucTHxaixzpLHP" isRoot="false" xmi.id="upUS0dpGTfeBt" name="Map&lt;Location, bool>"/>
-        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uZuDcKnFbkYj9" name="Player*"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uZuDcKnFbkYj9" name="player*"/>
         <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" elementReference="uDn4u9KyyoXPK" isRoot="false" xmi.id="uQbpVC90gXjN5" name="ArrayList&lt;Character>"/>
         <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" elementReference="uDn4u9KyyoXPK" isRoot="false" xmi.id="ufjADtrRgt92w" name="ArrayList&lt;Item>"/>
         <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ucTHxaixzpLHP" name="undef"/>
@@ -74,7 +74,7 @@
         <UML:Attribute visibility="private" isSpecification="false" xmi.id="u0JrumxWrhpFj" type="uw6sBBmJ5cuPV" name="quantity"/>
        </UML:Classifier.feature>
       </UML:Class>
-      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uNKH8ngyDQbXb" name="Player">
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uNKH8ngyDQbXb" name="player">
        <UML:Classifier.feature>
         <UML:Attribute visibility="private" isSpecification="false" xmi.id="umQOHLLLxRBnl" type="uQbpVC90gXjN5" name="crew"/>
         <UML:Attribute visibility="private" isSpecification="false" xmi.id="uQ56WH56W0hdP" type="ufjADtrRgt92w" name="items"/>

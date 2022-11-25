@@ -9,4 +9,15 @@ public class Enoplos extends Location {
         super(name);
         this.character = new NPCharacter("Rambaw", Speciality.WEAPON);
     }
+
+    @Override
+    public void createExits() {
+        this.exits.replace("Astronomiya", true);
+        this.exits.replace("Dimidium", true);
+    }
+
+    @Override
+    public void tellStory() {
+
+    }
 }

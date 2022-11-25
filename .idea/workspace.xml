@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="deleted eclipse file">
-      <change afterPath="$PROJECT_DIR$/src/common/files/FileHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/files/NotAllFilesException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/Astronomiya.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/Belli.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/Dimidium.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/Enoplos.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/Farmako.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/LastPlanet.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/Najemnik.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/Zounkla.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="modified gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/Earth.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/Earth.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_diagram/class_diagram.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/class_diagram/class_diagram.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/Zounkla.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/Zounkla.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/world/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/world/planets/Astronomiya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Astronomiya.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/world/planets/Belli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Belli.java" afterDir="false" />
@@ -25,8 +13,6 @@
       <change beforePath="$PROJECT_DIR$/src/world/planets/Earth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Earth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/world/planets/Enoplos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Enoplos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/world/planets/Farmako.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Farmako.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/planets/LastPlanet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/LastPlanet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/planets/Najemnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Najemnik.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/world/planets/Zounkla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Zounkla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +78,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669294403565</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created csv files for the planets&#10;added custom exception and new classes">
+      <created>1669305408718</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669305408718</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created csv files for the planets">
+      <created>1669305446183</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669305446183</updated>
+    </task>
+    <task id="LOCAL-00004" summary="modified gitignore">
+      <created>1669305486121</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669305486122</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +115,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="deleted eclipse file" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted eclipse file" />
+    <MESSAGE value="Created csv files for the planets&#10;added custom exception and new classes" />
+    <MESSAGE value="Created csv files for the planets" />
+    <MESSAGE value="modified gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified gitignore" />
   </component>
 </project>

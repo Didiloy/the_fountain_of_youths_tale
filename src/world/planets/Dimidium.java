@@ -12,4 +12,16 @@ public class Dimidium extends Location {
         this.character = new NPCharacter("None", Speciality.NONE);
 
     }
+
+    @Override
+    public void createExits() {
+        this.exits.replace("Farmako", true);
+        this.exits.replace("Belli", true);
+        this.exits.replace("Najemnik", true);
+    }
+
+    @Override
+    public void tellStory() {
+
+    }
 }

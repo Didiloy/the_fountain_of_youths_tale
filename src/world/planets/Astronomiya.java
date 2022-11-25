@@ -10,4 +10,15 @@ public class Astronomiya extends Location {
         this.character = new NPCharacter("Galilo", Speciality.ASTRONOMY);
 
     }
+
+    @Override
+    public void createExits() {
+        this.exits.replace("Zounkla", true);
+        this.exits.replace("Dimidium", true);
+    }
+
+    @Override
+    public void tellStory() {
+
+    }
 }
