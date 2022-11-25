@@ -25,6 +25,21 @@ public class parseArg {
         }
     }
 
+    public static int parseAnswer() throws IncorrectNumberOfParameterException, UnrecognizableArgumentException{
+        Scanner s = new Scanner(System.in);
+        String[] line = s.nextLine().split(" ");
+        if(line.length > 1 )throw new IncorrectNumberOfParameterException("Incorrect number of parameters");
+        int res;
+        try {
+            res = Integer.parseInt(line[0]);
+            if(res < 0 || res > 1) throw new UnrecognizableArgumentException("Argument must be between 0 and 1");
+        }catch(NumberFormatException e){
+            throw new UnrecognizableArgumentException("Argument is not an integer");
+        }
+        s.close();
+        return res;
+    }
+
     public static boolean enumContains(String test) {
 
         for (Argument c : Argument.values()) {

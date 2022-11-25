@@ -39,7 +39,7 @@ public class FileHelper {
             while ((line = br.readLine()) != null)   //returns a Boolean value
             {
                 String[] lineSplit = line.split(splitBy);    // use comma as separator
-                lore.put(lineSplit[0], lineSplit[1]);
+                lore.put(lineSplit[0], lineSplit[1].replace("\\n", "\n"));
             }
             br.close();
         } catch (IOException e) {
