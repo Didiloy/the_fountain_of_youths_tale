@@ -30,7 +30,26 @@ public class Zounkla extends Location {
     @Override
     public void tellStory(Player p, String cameFrom) {
         if (cameFrom.equals("Earth")) {
-
+            System.out.println(this.lore.get("storyFromEarth"));
+            fillChoice();
+            switch (this.choice) {
+                case YES:
+                    System.out.println(this.lore.get("ce1_0"));
+//                    printCharByChar(this.lore.get("ce1_0"));
+                case NO:
+                    System.out.println(this.lore.get("ce1_1"));
+                    break;
+            }
+            System.out.println(this.lore.get("ce1_story"));
+            fillChoice();
+            switch (this.choice) {
+                case YES:
+                    System.out.println(this.lore.get("ce2_0"));
+//                    printCharByChar(this.lore.get("ce1_0"));
+                case NO:
+                    System.out.println(this.lore.get("ce2_1"));
+                    break;
+            }
         } else {
             System.out.println(this.lore.get("storyFromAstronomiya"));
             fillChoice();

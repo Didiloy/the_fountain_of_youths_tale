@@ -19,6 +19,6 @@ public class Main {
         Location l = new Earth("Earth");
         Location l2 = new Zounkla("Zounkla");
         l2.createExits();
-        l2.tellStory(new Player(),"Astronomiya");
+        l2.tellStory(new Player(),"Earth");
     }
 }

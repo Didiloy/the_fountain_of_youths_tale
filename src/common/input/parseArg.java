@@ -1,5 +1,6 @@
 package common.input;
 
+import common.enums.ANSIColor;
 import common.enums.Argument;
 
 import java.util.AbstractMap;
@@ -10,7 +11,7 @@ public class parseArg {
     private static Scanner s = new Scanner(System.in);
 
     public static Map.Entry<Argument, String> parseArgs() throws UnrecognizableArgumentException, IncorrectNumberOfParameterException {
-        System.out.println("Valid answers are:\nYES, NO, GO <arg>, HELP, LOOK<arg>, ATTACK <arg>, TAKE <arg>, USE <arg>, QUIT");
+        System.out.println(ANSIColor.ANSI_GREEN + "Valid answers are:\nYES, NO, GO <arg>, HELP, LOOK<arg>, ATTACK <arg>, TAKE <arg>, USE <arg>, QUIT" + ANSIColor.ANSI_RESET);
         String[] tmp = s.nextLine().split("\s");
         String[] line;
 //        s.close();
