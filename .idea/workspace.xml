@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="fixed the \n interpretation in the map of file helper&#10;created the parseAnswer function">
+    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="gitignore">
+      <change afterPath="$PROJECT_DIR$/src/common/output/Out.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/files/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/files/FileHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/enums/Argument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/enums/Argument.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/input/parseArg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/input/parseArg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/Zounkla.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/Zounkla.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Astronomiya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Astronomiya.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Belli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Belli.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Dimidium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Dimidium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Earth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Earth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Enoplos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Enoplos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Farmako.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Farmako.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/LastPlanet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/LastPlanet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Najemnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Najemnik.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/world/planets/Zounkla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Zounkla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669391973042</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="zounkla.csv">
+      <created>1669391996195</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669391996195</updated>
+    </task>
+    <task id="LOCAL-00009" summary="gitignore">
+      <created>1669392091403</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669392091403</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +160,11 @@
     <MESSAGE value="exits of the planets" />
     <MESSAGE value="created the parseArgs helper" />
     <MESSAGE value="fixed the \n interpretation in the map of file helper&#10;created the parseAnswer function" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed the \n interpretation in the map of file helper&#10;created the parseAnswer function" />
+    <MESSAGE value="zounkla.csv" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/the_fountain_of_youth_tale$Main.ic" NAME="Main Coverage Results" MODIFIED="1669656156429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

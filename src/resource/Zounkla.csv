@@ -1,15 +1,11 @@
 storyFromEarth::The player is alone with McGyver in is ship so it doesn't know how to navigate well. \nhe was arrested by the coast guard of the planet and taken prisoner. \nafter 3 days, he was brought before the king of Zounkla and asked to told his story.
-choice1_1::talk about the fountain
-choice1_0::hide it to the king but he has a mind reader so he know
-choice1_story::"Look what you did dude !" said McGyver, "Everything is because of you, we are lost in a fucking dungeon in god know which fucking planet". \nThey started to fight. \nSuddenly, the hero stops and tells his sidekick to shut up and listen, there was someone coming. The princess of the planet enter the room and tell "I heard you spoke to my father. I always wanted to find the fountains of youth, if you take me with you I'll help you escape and I'll provide food for the crew as you do not seems to eat very well".
-choice2_0::hire diana
-choice2_1::do not hire diana
-storyFromAstronomiya::With the help of their navigator, the heroes were able to enter the planet without being spotted by the coast guard. The navigator advised them to go to a well known black market on this planet where they could find food.
-choice3_0::go to the black market
-choice3_1::don't go to the black market
-choice3_1_story::don't find someone to provide food, get out of the planet
-choice3_0_story::find bread Grills
-choice4_0::hire bread grills
-choice4_1::don't hire bread grills
-choice4_1_story::don't have anyone to provide food, get out of the planets
-choice4_0_story::now have a new crew member that can provide food get out of the planet
+ce1_1::talk about the fountain
+ce1_0::hide it to the king but he has a mind reader so he know
+ce1_story::"Look what you did dude !" said McGyver, "Everything is because of you, we are lost in a fucking dungeon in god know which fucking planet". \nThey started to fight. \nSuddenly, the hero stops and tells his sidekick to shut up and listen, there was someone coming. The princess of the planet enter the room and tell "I heard you spoke to my father. I always wanted to find the fountains of youth, if you take me with you I'll help you escape and I'll provide food for the crew as you do not seems to eat very well".
+ce2_0::hire diana
+ce2_1::do not hire diana
+storyFromAstronomiya::You are heading directly toward Zounkla with the help of your newly acquired navigator.\nSuddenly the navigator turn off the engine of the spaceship.\n"What happened ?", you say, "There is a team of coastguard not so far away, I saw them on the radar, I think they didn't had the time to saw us", he answer.\n"Oh, what can we do then ?", you ask.\n"I know a very good black market not far away, would you like to go ?"\n
+ca1_0::"okay lets go."\n"here we are", say the navigator.\n"Okay lets go find someone who can provide food because we are starving", you say.\nyou walk down the main street looking at the signs to find food. While walking you pass an advertisement that catches your eye: "Hey I'm Bread Grills, I can provide food for a large group of people, I don't ask for money in compensation but I want to live something exceptional because life on zounkla is boring". Exactly what you need!\nDo you contact this guy ?
+ca1_0_0::You contact him via the phone number he has left on his advertisement and you hire him. You now have someone that can provide food in your crew.
+ca1_0_1::"okay we can't quite provide what he is asking for, lets just continue our journey on another planet we may be able to find someone".
+ca1_1::"Okay then lets get out of here !", you say as you instruct your navigator to take you to another planet

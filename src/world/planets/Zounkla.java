@@ -1,12 +1,18 @@
 package world.planets;
 
 import character.NPCharacter;
+import common.enums.Argument;
 import common.enums.Speciality;
 import common.input.IncorrectNumberOfParameterException;
 import common.input.UnrecognizableArgumentException;
+import player.Player;
 import world.Location;
 
+import java.util.Map;
+
 import static common.input.parseArg.parseAnswer;
+import static common.input.parseArg.parseArgs;
+import static common.output.Out.printCharByChar;
 
 public class Zounkla extends Location {
     public Zounkla(String name) {
@@ -22,24 +28,32 @@ public class Zounkla extends Location {
     }
 
     @Override
-    public void tellStory() {
-        System.out.println(this.lore.get("storyFromEarth"));
-        System.out.println("make a choice 0 or 1:");
-        int choice = -1;
-        while (choice == -1) {
-            try {
-                choice = parseAnswer();
-            } catch (UnrecognizableArgumentException | IncorrectNumberOfParameterException e) {
-                System.out.println("You must enter a number between 0 and 1");
+    public void tellStory(Player p, String cameFrom) {
+        if (cameFrom.equals("Earth")) {
+
+        } else {
+            System.out.println(this.lore.get("storyFromAstronomiya"));
+            fillChoice();
+            switch (this.choice) {
+                case YES:
+                    System.out.println(this.lore.get("ca1_0"));
+//                    printCharByChar(this.lore.get("ce1_0"));
+                    fillChoice();
+                    switch(this.choice){
+                        case YES:
+                            System.out.println(this.lore.get("ca1_0_0"));
+                            p.add_crew(new NPCharacter("Bread Grills", Speciality.FOOD));
+                            break;
+                        case NO:
+                            System.out.println(this.lore.get("ca1_0_1"));
+                            break;
+                    }
+                    break;
+                case NO:
+                    System.out.println(this.lore.get("ca1_1"));
+                    break;
             }
         }
-        switch (choice) {
-            case 0:
-                System.out.println(this.lore.get("choice1_0"));
-                break;
-            case 1:
-                System.out.println(this.lore.get("choice1_1"));
-                break;
-        }
+
     }
 }

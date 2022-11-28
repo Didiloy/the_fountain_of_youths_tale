@@ -2,6 +2,7 @@ package world.planets;
 
 import character.NPCharacter;
 import common.enums.Speciality;
+import player.Player;
 import world.Location;
 
 public class Belli extends Location {
@@ -18,7 +19,8 @@ public class Belli extends Location {
     }
 
     @Override
-    public void tellStory() {
+    public void tellStory(Player p, String cameFrom) {
 
     }
+
 }

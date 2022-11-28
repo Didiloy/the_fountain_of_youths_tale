@@ -1,5 +1,6 @@
 package world.planets;
 
+import player.Player;
 import world.Location;
 
 public class LastPlanet extends Location {
@@ -13,7 +14,7 @@ public class LastPlanet extends Location {
     }
 
     @Override
-    public void tellStory() {
+    public void tellStory(Player p, String cameFrom) {
 
     }
     //TODO

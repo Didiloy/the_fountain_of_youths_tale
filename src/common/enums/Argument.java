@@ -1,6 +1,8 @@
 package common.enums;
 
 public enum Argument {
+    YES("YES"),
+    NO("NO"),
     GO("GO"),
     HELP("HELP"),
     LOOK("LOOK"),
