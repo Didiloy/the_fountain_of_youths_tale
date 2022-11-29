@@ -11,7 +11,7 @@ public class parseArg {
     private static Scanner s = new Scanner(System.in);
 
     public static Argument parseArgs() throws UnrecognizableArgumentException, IncorrectNumberOfParameterException {
-        System.out.println(ANSIColor.ANSI_GREEN + "Valid answers are:\nYES, NO, GO <arg>, HELP, LOOK<arg>, ATTACK <arg>, TAKE <arg>, USE <arg>, QUIT" + ANSIColor.ANSI_RESET);
+        System.out.println(ANSIColor.ANSI_GREEN + "Valid answers are:\nyes, no, go , help, look ,attack, take, use, QUIT" + ANSIColor.ANSI_RESET);
         String line = s.nextLine().toUpperCase();
 //        s.close();
         if (!enumContains(line)) throw new UnrecognizableArgumentException("Unidentified argument");
