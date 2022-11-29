@@ -2,13 +2,25 @@ package common.output;
 
 public class Out {
     public static void printCharByChar(String s){
-        for(char c : s.toCharArray()){
+        String[] tmp = s.split("\s");
+        for(String s2 : tmp){
             try{
-                Thread.sleep(50);
-                System.out.print(c);
+                Thread.sleep(100);
+                System.out.print(s2 + " ");
             } catch (InterruptedException e) {
-                System.out.print(c);
+                System.out.print(s2 + " ERROR ");
             }
         }
+//        for(char c : s.toCharArray()){
+//            try{
+//                Thread.sleep(250);
+//                System.out.print(c);
+//                System.out.flush();
+//            } catch (InterruptedException e) {
+//                System.out.print(c);
+//                System.out.flush();
+//            }
+//        }
+        System.out.println();
     }
 }

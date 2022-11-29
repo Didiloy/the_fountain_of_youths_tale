@@ -31,6 +31,7 @@ public class Zounkla extends Location {
     public void tellStory(Player p, String cameFrom) {
         if (cameFrom.equals("Earth")) {
             System.out.println(this.lore.get("storyFromEarth"));
+//            printCharByChar(this.lore.get("storyFromEarth"));
             fillChoice();
             switch (this.choice) {
                 case YES:
@@ -45,6 +46,7 @@ public class Zounkla extends Location {
             switch (this.choice) {
                 case YES:
                     System.out.println(this.lore.get("ce2_0"));
+                    p.add_crew(this.character);
 //                    printCharByChar(this.lore.get("ce1_0"));
                 case NO:
                     System.out.println(this.lore.get("ce2_1"));
@@ -54,23 +56,19 @@ public class Zounkla extends Location {
             System.out.println(this.lore.get("storyFromAstronomiya"));
             fillChoice();
             switch (this.choice) {
-                case YES:
+                case YES -> {
                     System.out.println(this.lore.get("ca1_0"));
 //                    printCharByChar(this.lore.get("ce1_0"));
                     fillChoice();
-                    switch(this.choice){
-                        case YES:
+                    switch (this.choice) {
+                        case YES -> {
                             System.out.println(this.lore.get("ca1_0_0"));
                             p.add_crew(new NPCharacter("Bread Grills", Speciality.FOOD));
-                            break;
-                        case NO:
-                            System.out.println(this.lore.get("ca1_0_1"));
-                            break;
+                        }
+                        case NO -> System.out.println(this.lore.get("ca1_0_1"));
                     }
-                    break;
-                case NO:
-                    System.out.println(this.lore.get("ca1_1"));
-                    break;
+                }
+                case NO -> System.out.println(this.lore.get("ca1_1"));
             }
         }
 
