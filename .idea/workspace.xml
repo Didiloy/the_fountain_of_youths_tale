@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="changed parseArgs to add YES and NO">
-      <change afterPath="$PROJECT_DIR$/src/common/enums/ANSIColor.java" afterDir="false" />
+    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="added colored output, completed zounkla story">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/input/parseArg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/input/parseArg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/Zounkla.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/Zounkla.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/output/Out.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/output/Out.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/Astronomiya.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/Astronomiya.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Astronomiya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Astronomiya.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/world/planets/Zounkla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Zounkla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669656394130</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added colored output, completed zounkla story">
+      <created>1669661461359</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669661461359</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,7 +167,8 @@
     <MESSAGE value="zounkla.csv" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="changed parseArgs to add YES and NO" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed parseArgs to add YES and NO" />
+    <MESSAGE value="added colored output, completed zounkla story" />
+    <option name="LAST_COMMIT_MESSAGE" value="added colored output, completed zounkla story" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/the_fountain_of_youth_tale$Main.ic" NAME="Main Coverage Results" MODIFIED="1669656156429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

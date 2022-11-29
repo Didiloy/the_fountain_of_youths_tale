@@ -1,6 +1,7 @@
 import common.files.NotAllFilesException;
 import player.Player;
 import world.Location;
+import world.planets.Astronomiya;
 import world.planets.Earth;
 import world.planets.Zounkla;
 
@@ -16,9 +17,9 @@ public class Main {
             System.out.println("========= Make sure you have all the needed files and try again ");
             System.exit(1);
         }
-        Location l = new Earth("Earth");
+        Location l = new Astronomiya("Astronomiya");
         Location l2 = new Zounkla("Zounkla");
-        l2.createExits();
-        l2.tellStory(new Player(),"Earth");
+        l.createExits();
+        l.tellStory(new Player(),"Earth");
     }
 }
