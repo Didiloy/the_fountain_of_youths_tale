@@ -45,6 +45,8 @@ public class Belli extends Location {
                         System.out.println(this.lore.get("Belli001"));
                         break;
                 }
+            default:
+                System.out.println("choisissez un autre argument");
         }
     }
 
