@@ -1,9 +1,7 @@
 import common.files.NotAllFilesException;
 import player.Player;
 import world.Location;
-import world.planets.Astronomiya;
-import world.planets.Earth;
-import world.planets.Zounkla;
+import world.planets.*;
 
 import static common.files.FileHelper.verifyFiles;
 
@@ -19,7 +17,10 @@ public class Main {
         }
         Location l = new Astronomiya("Astronomiya");
         Location l2 = new Zounkla("Zounkla");
-        l.createExits();
-        l.tellStory(new Player(),"Earth");
+        Location l3 = new Najemnik("Najemnik");
+        Location l4 = new Belli("Belli");
+        Location l5 = new Farmako("Farmako");
+        l3.createExits();
+        l3.tellStory(new Player(),"Najemnik");
     }
 }
