@@ -20,6 +20,36 @@ public class Earth extends Location {
 
     @Override
     public void tellStory(Player p, String cameFrom) {
+        System.out.println(this.lore.get("story"));
+        fillChoice();
+        switch (this.choice) {
+            case YES:
+                System.out.println(this.lore.get("Earth001"));
+                fillChoice();
+                switch (this.choice) {
+                    case GO:
+                        System.out.println(this.lore.get("Earth011"));
+                        fillChoice();
+                        switch (this.choice) {
+                            case GO:
+                                //TODO changer de planete en fonction du deuxiéme argument
+                            default:
+                                System.out.println("choisissez un autre argument");
+                        }
+                        break;
+                    case USE:
+                        System.out.println(this.lore.get("Earth021"));
+                        break;
+                    default:
+                        System.out.println("choisissez un autre argument");
+                }
+                break;
+            case NO:
+                System.out.println(this.lore.get("Earth002"));
+                break;
+            default:
+                System.out.println("choisissez un autre argument");
 
+        }
     }
 }
