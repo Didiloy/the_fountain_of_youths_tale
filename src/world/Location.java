@@ -17,7 +17,6 @@ public abstract class Location {
     public Map<String, Boolean> exits;
     protected NPCharacter character;
     protected Argument choice = null;
-    protected Map.Entry<Argument, String> answer = null;
 
     public Map<String, String> lore;
 
@@ -50,11 +49,9 @@ public abstract class Location {
     public abstract void tellStory(Player p, String cameFrom);
     public void fillChoice(){
         this.choice = null;
-        this.answer = null;
         while (choice == null) {
             try {
-                this.answer = parseArgs();
-                this.choice = answer.getKey();
+                this.choice = parseArgs();
             } catch (UnrecognizableArgumentException | IncorrectNumberOfParameterException e) {
                 System.out.println("You must enter a valid answer");
             }
