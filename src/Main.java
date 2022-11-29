@@ -20,7 +20,7 @@ public class Main {
         Location l3 = new Najemnik("Najemnik");
         Location l4 = new Belli("Belli");
         Location l5 = new Farmako("Farmako");
-        l3.createExits();
-        l3.tellStory(new Player(),"Najemnik");
+        l4.createExits();
+        l4.tellStory(new Player(),"Najemnik");
     }
 }
