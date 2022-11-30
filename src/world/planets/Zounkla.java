@@ -29,7 +29,7 @@ public class Zounkla extends Location {
             switch (this.choice) {
                 case YES:
                     System.out.println(this.lore.get("ce1_0"));
-//                    printCharByChar(this.lore.get("ce1_0"));
+                    break;
                 case NO:
                     System.out.println(this.lore.get("ce1_1"));
                     break;
@@ -40,7 +40,7 @@ public class Zounkla extends Location {
                 case YES:
                     System.out.println(this.lore.get("ce2_0"));
                     p.add_crew(this.character);
-//                    printCharByChar(this.lore.get("ce1_0"));
+                    break;
                 case NO:
                     System.out.println(this.lore.get("ce2_1"));
                     break;

@@ -45,20 +45,15 @@ public class Dimidium extends Location {
         }
         if (!astronomy){
             System.out.println(this.lore.get("exit_01"));
+            System.exit(0);
         } else if (!weapon) {
             System.out.println(this.lore.get("exit_02"));
+            System.exit(0);
         } else if (!food) {
             System.out.println(this.lore.get("exit_03"));
+            System.exit(0);
         }else {
             System.out.println(this.lore.get("success"));
-            fillChoice(new String[]{"go"});
-            switch (this.choice) {
-                case GO:
-                    //TODO changer de planete en fonction du deuxiéme argument
-                    break;
-                default:
-                    System.out.println("choisissez un autre argument");
-            }
         }
 
     }
