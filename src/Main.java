@@ -1,7 +1,6 @@
 import common.files.NotAllFilesException;
 import player.Player;
-import world.Location;
-import world.planets.*;
+import world.World;
 
 import static common.files.FileHelper.verifyFiles;
 
@@ -15,14 +14,8 @@ public class Main {
             System.out.println("========= Make sure you have all the needed files and try again ");
             System.exit(1);
         }
-        Location l = new Astronomiya("Astronomiya");
-        Location l2 = new Zounkla("Zounkla");
-        Location l3 = new Najemnik("Najemnik");
-        Location l4 = new Belli("Belli");
-        Location l5 = new Farmako("Farmako");
-        Location l6 = new Enoplos("Enoplos");
-        Location l7 = new Earth("Earth");
-        l7.createExits();
-        l7.tellStory(new Player(),"Earth");
+        World w = new World();
+        Player p = new Player();
+        w.start(p);
     }
 }

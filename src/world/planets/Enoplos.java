@@ -20,15 +20,15 @@ public class Enoplos extends Location {
     @Override
     public void tellStory(Player p, String cameFrom) {
         System.out.println(this.lore.get("story"));
-        fillChoice();
+        fillChoice(new String[]{"go", "look"});
         switch (this.choice) {
             case GO -> {
                 System.out.println(this.lore.get("ce_0"));
-                fillChoice();
+                fillChoice(new String[]{"look", "go"});
                 switch (this.choice) {
                     case LOOK -> {
                         System.out.println(this.lore.get("ce_0_0"));
-                        fillChoice();
+                        fillChoice(new String[]{"yes", "no"});
                         switch (this.choice) {
                             case YES -> {
                                 System.out.println(this.lore.get("ce_0_0_0"));

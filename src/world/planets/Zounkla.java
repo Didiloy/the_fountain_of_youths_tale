@@ -1,18 +1,11 @@
 package world.planets;
 
 import character.NPCharacter;
-import common.enums.Argument;
 import common.enums.Speciality;
-import common.input.IncorrectNumberOfParameterException;
-import common.input.UnrecognizableArgumentException;
 import player.Player;
 import world.Location;
 
-import java.util.Map;
 
-import static common.input.parseArg.parseAnswer;
-import static common.input.parseArg.parseArgs;
-import static common.output.Out.printCharByChar;
 
 public class Zounkla extends Location {
     public Zounkla(String name) {
@@ -32,7 +25,7 @@ public class Zounkla extends Location {
         if (cameFrom.equals("Earth")) {
             System.out.println(this.lore.get("storyFromEarth"));
 //            printCharByChar(this.lore.get("storyFromEarth"));
-            fillChoice();
+            fillChoice(new String[]{"yes", "no"});
             switch (this.choice) {
                 case YES:
                     System.out.println(this.lore.get("ce1_0"));
@@ -42,7 +35,7 @@ public class Zounkla extends Location {
                     break;
             }
             System.out.println(this.lore.get("ce1_story"));
-            fillChoice();
+            fillChoice(new String[]{"yes", "no"});
             switch (this.choice) {
                 case YES:
                     System.out.println(this.lore.get("ce2_0"));
@@ -54,12 +47,12 @@ public class Zounkla extends Location {
             }
         } else {
             System.out.println(this.lore.get("storyFromAstronomiya"));
-            fillChoice();
+            fillChoice(new String[]{"yes", "no"});
             switch (this.choice) {
                 case YES -> {
                     System.out.println(this.lore.get("ca1_0"));
 //                    printCharByChar(this.lore.get("ce1_0"));
-                    fillChoice();
+                    fillChoice(new String[]{"yes", "no"});
                     switch (this.choice) {
                         case YES -> {
                             System.out.println(this.lore.get("ca1_0_0"));

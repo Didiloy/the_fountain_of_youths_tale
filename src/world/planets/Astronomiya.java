@@ -21,7 +21,7 @@ public class Astronomiya extends Location {
     @Override
     public void tellStory(Player p, String cameFrom) {
         System.out.println(this.lore.get("story"));
-        fillChoice();
+        fillChoice(new String[]{"yes", "no"});
         switch (this.choice) {
             case YES -> {
                 System.out.println(this.lore.get("ca_0"));
@@ -30,7 +30,7 @@ public class Astronomiya extends Location {
             }
             case NO -> {
                 System.out.println(this.lore.get("ca_1"));
-                fillChoice();
+                fillChoice(new String[]{"yes", "no"});
                 switch (this.choice) {
                     case YES -> {
                         System.out.println(this.lore.get("ca_1_0"));
@@ -39,7 +39,7 @@ public class Astronomiya extends Location {
                     case NO -> System.out.println(this.lore.get("ca_1_1"));
                 }
                 System.out.println(this.lore.get("story_2"));
-                fillChoice();
+                fillChoice(new String[]{"yes", "no"});
                 switch (this.choice) {
                     case YES -> {
                         System.out.println(this.lore.get("ca_2"));
@@ -47,7 +47,7 @@ public class Astronomiya extends Location {
                     }
                     case NO -> {
                         System.out.println(this.lore.get("ca_3"));
-                        fillChoice();
+                        fillChoice(new String[]{"yes", "no"});
                         switch (this.choice) {
                             case YES -> {
                                 System.out.println(this.lore.get("ca_3_0"));

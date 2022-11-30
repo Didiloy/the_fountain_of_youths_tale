@@ -20,18 +20,18 @@ public class Najemnik extends Location {
     @Override
     public void tellStory(Player p, String cameFrom) {
         System.out.println(this.lore.get("N000"));
-        fillChoice();
+        fillChoice(new String[]{"go", "use"});
         switch (this.choice){
             case GO: // FUIR DE LA 1ere Bataille
                 System.out.println(this.lore.get("N001"));
-                fillChoice();
+                fillChoice(new String[]{"go", "use"});
                 switch (this.choice){
                     case GO: // Fuir de la 2nd bataille
                         System.out.println(this.lore.get("N011"));
                         break;
                     case USE: // Attaquer la base
                         System.out.println(this.lore.get("N012"));
-                        fillChoice();
+                        fillChoice(new String[]{"attack", "go"});
                         switch (this.choice){
                             case ATTACK ->{
                                 System.out.println(this.lore.get("N021"));
@@ -48,7 +48,7 @@ public class Najemnik extends Location {
 
             case USE: // Engager la 1ere bataille
                 System.out.println(this.lore.get("N002"));
-                fillChoice();
+                fillChoice(new String[]{"attack", "go"});
                 switch (this.choice){
                     case ATTACK -> {
                         System.out.println(this.lore.get("N021"));
@@ -57,7 +57,7 @@ public class Najemnik extends Location {
                     }
                     case GO -> {
                         System.out.println(this.lore.get("N022"));
-                        fillChoice();
+                        fillChoice(new String[]{"attack", "go"});
                         switch (this.choice) {
                             case ATTACK -> {
                                 System.out.println(this.lore.get("N021"));

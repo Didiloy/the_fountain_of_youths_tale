@@ -21,15 +21,15 @@ public class Earth extends Location {
     @Override
     public void tellStory(Player p, String cameFrom) {
         System.out.println(this.lore.get("story"));
-        fillChoice();
+        fillChoice(new String[]{"yes", "no"});
         switch (this.choice) {
             case YES:
                 System.out.println(this.lore.get("Earth001"));
-                fillChoice();
+                fillChoice(new String[]{"go", "use"});
                 switch (this.choice) {
                     case GO:
                         System.out.println(this.lore.get("Earth011"));
-                        fillChoice();
+                        fillChoice(new String[]{"go"});
                         switch (this.choice) {
                             case GO:
                                 p.add_crew(new NPCharacter("Mc Gryver",Speciality.ENGINEERING));

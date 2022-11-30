@@ -8,10 +8,15 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class parseArg {
-    private static Scanner s = new Scanner(System.in);
+    private static final Scanner s = new Scanner(System.in);
 
-    public static Argument parseArgs() throws UnrecognizableArgumentException, IncorrectNumberOfParameterException {
-        System.out.println(ANSIColor.ANSI_GREEN + "Valid answers are:\nyes, no, go , help, look ,attack, take, use, QUIT" + ANSIColor.ANSI_RESET);
+    public static Argument parseArgs(String[] args) throws UnrecognizableArgumentException, IncorrectNumberOfParameterException {
+        if(args.length == 0) throw new IncorrectNumberOfParameterException("The args parameter of the parseArgs function is incorrect");
+        System.out.println(ANSIColor.ANSI_GREEN + "Valid answers are:");
+        for (String s: args) {
+            System.out.print(s + ", ");
+        }
+        System.out.print("QUIT\n"+ ANSIColor.ANSI_RESET);
         String line = s.nextLine().toUpperCase();
 //        s.close();
         if (!enumContains(line)) throw new UnrecognizableArgumentException("Unidentified argument");
@@ -19,19 +24,14 @@ public class parseArg {
         return Argument.valueOf(line);
     }
 
-    public static int parseAnswer() throws IncorrectNumberOfParameterException, UnrecognizableArgumentException {
-        Scanner s = new Scanner(System.in);
+    public static String parseTransition() throws IncorrectNumberOfParameterException, UnrecognizableArgumentException {
+        System.out.println(ANSIColor.ANSI_GREEN + "Valid answers are: GO <arg> ,QUIT" + ANSIColor.ANSI_RESET);
         String[] line = s.nextLine().split(" ");
-        if (line.length > 1) throw new IncorrectNumberOfParameterException("Incorrect number of parameters");
-        int res;
-        try {
-            res = Integer.parseInt(line[0]);
-            if (res < 0 || res > 1) throw new UnrecognizableArgumentException("Argument must be between 0 and 1");
-        } catch (NumberFormatException e) {
-            throw new UnrecognizableArgumentException("Argument is not an integer");
-        }
-        s.close();
-        return res;
+        if (line.length > 2) throw new IncorrectNumberOfParameterException("Incorrect number of parameters");
+        if (!enumContains(line[0].toUpperCase())) throw new UnrecognizableArgumentException("Unidentified argument");
+        if(line[0].toUpperCase().equals(Argument.QUIT.name())) System.exit(0);
+        if(line[0].toUpperCase().equals(Argument.GO.name())) return line[1];
+        else throw new UnrecognizableArgumentException("Unidentified argument");
     }
 
     public static boolean enumContains(String test) {
