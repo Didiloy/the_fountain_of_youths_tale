@@ -40,6 +40,7 @@ public class Earth extends Location {
                 break;
             case NO:
                 System.out.println(this.lore.get("Earth002"));
+                System.exit(0);
                 break;
             default:
                 System.out.println("choisissez un autre argument");
