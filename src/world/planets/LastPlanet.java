@@ -22,6 +22,7 @@ public class LastPlanet extends Location {
         switch (this.choice) {
             case GO:
                 System.out.println(this.lore.get("end01"));
+                System.exit(0);
                 break;
             case USE:
                 System.out.println(this.lore.get("story1"));
@@ -29,14 +30,17 @@ public class LastPlanet extends Location {
                 switch (this.choice) {
                     case ATTACK:
                         System.out.println(this.lore.get("end01"));
+                        System.exit(0);
                         break;
                     case USE:
                         System.out.println(this.lore.get("story2"));
                         if(hasWeapon(p)){
                             System.out.println(this.lore.get("win"));
+                            System.exit(0);
                         }
                         else {
                             System.out.println(this.lore.get("loose"));
+                            System.exit(0);
                         }
                         break;
                     default:
