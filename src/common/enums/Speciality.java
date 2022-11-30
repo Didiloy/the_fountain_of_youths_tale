@@ -6,5 +6,6 @@ public enum Speciality {
     WEAPON,
     MEDICINE,
     STRATEGY,
+    ENGINEERING,
     NONE
 }

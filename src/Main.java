@@ -21,7 +21,8 @@ public class Main {
         Location l4 = new Belli("Belli");
         Location l5 = new Farmako("Farmako");
         Location l6 = new Enoplos("Enoplos");
-        l6.createExits();
-        l6.tellStory(new Player(),"Najemnik");
+        Location l7 = new Earth("Earth");
+        l7.createExits();
+        l7.tellStory(new Player(),"Earth");
     }
 }

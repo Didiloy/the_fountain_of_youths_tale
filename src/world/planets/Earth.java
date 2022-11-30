@@ -32,6 +32,8 @@ public class Earth extends Location {
                         fillChoice();
                         switch (this.choice) {
                             case GO:
+                                p.add_crew(new NPCharacter("Mc Gryver",Speciality.ENGINEERING));
+
                                 //TODO changer de planete en fonction du deuxiéme argument
                             default:
                                 System.out.println("choisissez un autre argument");
