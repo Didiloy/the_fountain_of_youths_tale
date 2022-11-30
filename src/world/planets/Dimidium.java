@@ -51,7 +51,7 @@ public class Dimidium extends Location {
             System.out.println(this.lore.get("exit_03"));
         }else {
             System.out.println(this.lore.get("success"));
-            fillChoice();
+            fillChoice(new String[]{"go"});
             switch (this.choice) {
                 case GO:
                     //TODO changer de planete en fonction du deuxiéme argument

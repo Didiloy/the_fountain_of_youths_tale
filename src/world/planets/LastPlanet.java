@@ -18,14 +18,14 @@ public class LastPlanet extends Location {
     @Override
     public void tellStory(Player p, String cameFrom) {
         System.out.println(this.lore.get("story0"));
-        fillChoice();
+        fillChoice(new String[]{"go","use"});
         switch (this.choice) {
             case GO:
                 System.out.println(this.lore.get("end01"));
                 break;
             case USE:
                 System.out.println(this.lore.get("story1"));
-                fillChoice();
+                fillChoice(new String[]{"attack","use"});
                 switch (this.choice) {
                     case ATTACK:
                         System.out.println(this.lore.get("end01"));
