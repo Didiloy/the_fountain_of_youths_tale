@@ -22,5 +22,9 @@ public class Player {
     public List<NPCharacter> getCrew(){
         return this.crew;
     }
+
+    public List<Item> getItems(){
+        return  this.items;
+    }
 }
 

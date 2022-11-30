@@ -23,7 +23,7 @@ public class Main {
         Location l6 = new Enoplos("Enoplos");
         Location l7 = new Earth("Earth");
         Location l8 = new Dimidium("Dimidium");
-        l8.createExits();
-        l8.tellStory(new Player(),"Dimidium");
+        l7.createExits();
+        l7.tellStory(new Player(),"Earth");
     }
 }
