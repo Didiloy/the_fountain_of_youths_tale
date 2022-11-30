@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="end in dimidium when you die">
-      <change beforePath="$PROJECT_DIR$/src/world/planets/Earth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Earth.java" afterDir="false" />
+    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="changed earth">
+      <change beforePath="$PROJECT_DIR$/src/resource/Dimidium.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/Dimidium.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Belli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Belli.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669824028130</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="changed earth">
+      <created>1669824242659</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669824242659</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +227,8 @@
     <MESSAGE value="added enoplos story" />
     <MESSAGE value="added function with the game loop" />
     <MESSAGE value="end in dimidium when you die" />
-    <option name="LAST_COMMIT_MESSAGE" value="end in dimidium when you die" />
+    <MESSAGE value="changed earth" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed earth" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/the_fountain_of_youth_tale$Main.ic" NAME="Main Coverage Results" MODIFIED="1669656156429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

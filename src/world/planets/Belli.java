@@ -36,6 +36,7 @@ public class Belli extends Location {
                         switch (this.choice){
                             case TAKE:
                                 System.out.println(this.lore.get("Belli022"));
+                                System.exit(0);
                                 break;
                             case GO:
                                 System.out.println(this.lore.get("Belli001"));
