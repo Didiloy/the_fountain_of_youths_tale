@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="the_fountain_of_youths_tale:jar">
+    <output-path>$PROJECT_DIR$/exe</output-path>
+    <root id="archive" name="the_fountain_of_youths_tale.jar">
+      <element id="module-output" name="the_fountain_of_youths_tale" />
+    </root>
+  </artifact>
+</component>
