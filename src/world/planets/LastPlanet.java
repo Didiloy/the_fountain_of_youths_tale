@@ -52,7 +52,7 @@ public class LastPlanet extends Location {
         boolean hasWeapon = false;
         for (Item i:p.getItems()) {
             if (i instanceof Weapon){
-                if(i.getQuantity() > 1){
+                if(i.getQuantity() > 0){
                     hasWeapon = true;
                     break;
                 }

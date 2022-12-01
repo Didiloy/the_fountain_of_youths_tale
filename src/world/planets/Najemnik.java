@@ -37,7 +37,9 @@ public class Najemnik extends Location {
                         switch (this.choice){
                             case ATTACK ->{
                                 System.out.println(this.lore.get("N021"));
-                                p.addItems(new Weapon());
+                                Weapon w = new Weapon();
+                                w.add();
+                                p.addItems(w);
                                 p.add_crew(this.character);
                             }
                             case GO -> {
@@ -53,7 +55,9 @@ public class Najemnik extends Location {
                 switch (this.choice){
                     case ATTACK -> {
                         System.out.println(this.lore.get("N021"));
-                        p.addItems(new Weapon());
+                        Weapon w = new Weapon();
+                        w.add();
+                        p.addItems(w);
                         p.add_crew(this.character);
                         break;
                     }
@@ -63,7 +67,9 @@ public class Najemnik extends Location {
                         switch (this.choice) {
                             case ATTACK -> {
                                 System.out.println(this.lore.get("N021"));
-                                p.addItems(new Weapon());
+                                Weapon w = new Weapon();
+                                w.add();
+                                p.addItems(w);
                                 p.add_crew(this.character);
                             }
                             case GO ->{

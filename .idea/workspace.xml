@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="changed the parseArg method">
+    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="changed name of last planet, and parseargs method in world">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/files/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/files/FileHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/LastPlanet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/????.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/World.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/planets/Belli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Belli.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/planets/Farmako.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Farmako.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/planets/LastPlanet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/LastPlanet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/????.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/LastPlanet.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/world/planets/Najemnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Najemnik.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669905408071</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="changed name of last planet, and parseargs method in world">
+      <created>1669908630405</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669908630405</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +218,19 @@
     <MESSAGE value="changed parseArgs return type" />
     <MESSAGE value="changed main method" />
     <MESSAGE value="changed the parseArg method" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed the parseArg method" />
+    <MESSAGE value="changed name of last planet, and parseargs method in world" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed name of last planet, and parseargs method in world" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/world/planets/LastPlanet.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/the_fountain_of_youth_tale$Main.ic" NAME="Main Coverage Results" MODIFIED="1669656156429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

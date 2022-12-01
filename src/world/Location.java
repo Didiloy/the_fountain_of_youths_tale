@@ -22,7 +22,7 @@ public abstract class Location {
 
     public Location(String name) {
         this.name = name;
-        this.lore = parseCsvFile("./src/resource/" + this.name + ".csv", this.name);
+        this.lore = parseCsvFile("./src/resource/" + (this.name.equals("????") ? "LastPlanet" : this.name) + ".csv", this.name);
         this.exits = new HashMap<>(){{
             put("Astronomiya", false);
             put("Belli", false);
