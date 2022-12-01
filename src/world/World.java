@@ -11,6 +11,7 @@ import java.util.Map;
 import java.util.Objects;
 
 import static common.input.parseArg.parseTransition;
+import static world.Location.START_LOCATION;
 
 public class World {
     private ArrayList<Location> planets;
@@ -70,8 +71,8 @@ public class World {
     }
 
     public void start(Player p) {
-        this.currentPlanet = this.planets.get(3);
-        this.planets.get(3).tellStory(p, "");
+        this.currentPlanet = this.planets.stream().filter(l -> l.getName().equals(START_LOCATION)).findFirst().get();
+        this.currentPlanet.tellStory(p, "");
         do {
             Location planete = transition(p);
             if(planete == null) continue;

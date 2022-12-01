@@ -8,7 +8,7 @@ public class Out {
                 Thread.sleep(100);
                 System.out.print(s2 + " ");
             } catch (InterruptedException e) {
-                System.out.print(s2 + " ERROR ");
+                System.out.print(s2);
             }
         }
 //        for(char c : s.toCharArray()){
