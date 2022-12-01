@@ -42,11 +42,11 @@ public class FileHelper {
                 lore.put(lineSplit[0], lineSplit[1].replace("\\n", "\n"));
             }
             br.close();
-        } catch (IOException e) {
+        } catch (IOException | ArrayIndexOutOfBoundsException e) {
             System.out.println("========= Impossible to read the lore of the planet " + name);
             System.out.println("========= Maybe the file " + filename + " does not exist ?");
-            System.out.println("========= Make sure the file does exist and try again ");
-            System.exit(1);
+            System.out.println("========= Make sure the file does exist and is well written and try again ");
+//            System.exit(1);
         }
         return lore;
     }

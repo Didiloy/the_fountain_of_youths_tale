@@ -7,7 +7,6 @@ import player.Player;
 import world.planets.*;
 
 import java.util.ArrayList;
-import java.util.Map;
 import java.util.Objects;
 
 import static common.input.parseArg.parseTransition;
@@ -66,7 +65,6 @@ public class World {
         for (Location p : this.planets) {
             if (Objects.equals(p.getName(), name)) planete = p;
         }
-//        planete.tellStory(pl, this.currentPlanet.getName());
         return planete;
     }
 

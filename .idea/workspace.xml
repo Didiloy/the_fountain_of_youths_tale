@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="changed name of last planet,&#10;changed chaviar scalper story">
-      <change beforePath="$PROJECT_DIR$/Rapport_Projet.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Rapport_Projet.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/output/Out.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/output/Out.java" afterDir="false" />
+    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="typos in Rapport_Projet.docx">
+      <change afterPath="$PROJECT_DIR$/src/resource/dummy.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test/FileHelperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/the_fountain_of_youths_tale.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/the_fountain_of_youths_tale.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/files/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/files/FileHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/world/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/World.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -33,17 +37,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Documents/Documents/GitHub/the_fountain_of_youths_tale&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/Documents/Documents/GitHub/the_fountain_of_youths_tale",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+      <recent name="world.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in the_fountain_of_youths_tale">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="the_fountain_of_youths_tale" />
@@ -51,8 +70,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in the_fountain_of_youths_tale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="the_fountain_of_youths_tale" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="world.test in the_fountain_of_youths_tale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="the_fountain_of_youths_tale" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="world.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="world.test" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in the_fountain_of_youths_tale" />
+        <item itemvalue="JUnit.world.test in the_fountain_of_youths_tale" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -192,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669909949827</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="now use the START_LOCATION constant,&#10;modified rapport,&#10;deleted comments main">
+      <created>1669911327139</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669911327139</updated>
+    </task>
+    <task id="LOCAL-00020" summary="typos in Rapport_Projet.docx">
+      <created>1669912224527</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669912224527</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,7 +282,9 @@
     <MESSAGE value="changed the parseArg method" />
     <MESSAGE value="changed name of last planet, and parseargs method in world" />
     <MESSAGE value="changed name of last planet,&#10;changed chaviar scalper story" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed name of last planet,&#10;changed chaviar scalper story" />
+    <MESSAGE value="now use the START_LOCATION constant,&#10;modified rapport,&#10;deleted comments main" />
+    <MESSAGE value="typos in Rapport_Projet.docx" />
+    <option name="LAST_COMMIT_MESSAGE" value="typos in Rapport_Projet.docx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
