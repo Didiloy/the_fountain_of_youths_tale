@@ -18,5 +18,13 @@ public class Player {
     public void add_crew(NPCharacter npc){
         this.crew.add(npc);
     }
+
+    public List<NPCharacter> getCrew(){
+        return this.crew;
+    }
+
+    public List<Item> getItems(){
+        return  this.items;
+    }
 }
 

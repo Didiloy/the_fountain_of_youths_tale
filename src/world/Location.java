@@ -47,14 +47,18 @@ public abstract class Location {
     }
 
     public abstract void tellStory(Player p, String cameFrom);
-    public void fillChoice(){
+    public void fillChoice(String[] args){
         this.choice = null;
         while (choice == null) {
             try {
-                this.choice = parseArgs();
+                this.choice = parseArgs(args);
             } catch (UnrecognizableArgumentException | IncorrectNumberOfParameterException e) {
-                System.out.println("You must enter a valid answer");
+                System.out.println(e.getMessage() + "\nYou must enter a valid answer");
             }
         }
+    }
+
+    public Map<String, Boolean> getExits(){
+        return this.exits;
     }
 }
