@@ -29,11 +29,11 @@ public class Farmako extends Location {
                     case NO: // Suivre DR WHO
                     System.out.println(this.lore.get("F010"));
                     fillChoice();
-                    switch (this.choice){
+                    switch (this.choice) {
                         case NO: // Se reposer !!!!!! Si on utilise un systeme de pt vie alors restore les pt vie
-                        System.out.println(this.lore.get("F111")); // Pasteur join the crew
+                            System.out.println(this.lore.get("F111")); // Pasteur join the crew
                             fillChoice();
-                            switch (this.choice){
+                            switch (this.choice) {
                                 case YES:
                                     p.add_crew(this.character); // ajout de pasteur
                                     break;
@@ -41,13 +41,12 @@ public class Farmako extends Location {
                         case YES:
                             System.out.println(this.lore.get("F112"));
                             fillChoice();
-                            switch (this.choice){
+                            switch (this.choice) {
                                 case YES:
                                     p.add_crew(this.character);
                                     break;
                             }
                     }
-
                     case YES: // Aller en ville
                         System.out.println(this.lore.get("F011"));
                         fillChoice();

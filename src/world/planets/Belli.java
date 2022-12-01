@@ -41,10 +41,12 @@ public class Belli extends Location {
                                 System.out.println(this.lore.get("Belli001"));
                                 break;
                         }
+                        break;
                     case GO:
                         System.out.println(this.lore.get("Belli001"));
                         break;
                 }
+                break;
             default:
                 System.out.println("choisissez un autre argument");
         }
