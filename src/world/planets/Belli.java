@@ -14,7 +14,7 @@ public class Belli extends Location {
 
     @Override
     public void createExits() {
-        this.exits.replace("LastPlanet", true);
+        this.exits.replace("????", true);
         this.exits.replace("Najemnik", true);
     }
 
@@ -48,8 +48,6 @@ public class Belli extends Location {
                         break;
                 }
                 break;
-            default:
-                System.out.println("choisissez un autre argument");
         }
     }
 

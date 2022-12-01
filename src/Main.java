@@ -19,5 +19,8 @@ public class Main {
         World w = new World();
         Player p = new Player();
         w.start(p);
+//        LastPlanet l = new LastPlanet("????");
+//        l.createExits();
+//        l.tellStory(p, "");
     }
 }

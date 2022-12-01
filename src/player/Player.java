@@ -26,5 +26,8 @@ public class Player {
     public List<Item> getItems(){
         return  this.items;
     }
+    public void addItems(Item i){
+        this.items.add(i);
+    }
 }
 

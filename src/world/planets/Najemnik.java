@@ -2,6 +2,7 @@ package world.planets;
 
 import character.NPCharacter;
 import common.enums.Speciality;
+import items.Weapon;
 import player.Player;
 import world.Location;
 
@@ -14,7 +15,7 @@ public class Najemnik extends Location {
     @Override
     public void createExits() {
         this.exits.replace("Farmako", true);
-        this.exits.replace("LastPlanet", true);
+        this.exits.replace("????", true);
     }
 
     @Override
@@ -36,6 +37,7 @@ public class Najemnik extends Location {
                         switch (this.choice){
                             case ATTACK ->{
                                 System.out.println(this.lore.get("N021"));
+                                p.addItems(new Weapon());
                                 p.add_crew(this.character);
                             }
                             case GO -> {
@@ -51,6 +53,7 @@ public class Najemnik extends Location {
                 switch (this.choice){
                     case ATTACK -> {
                         System.out.println(this.lore.get("N021"));
+                        p.addItems(new Weapon());
                         p.add_crew(this.character);
                         break;
                     }
@@ -60,6 +63,7 @@ public class Najemnik extends Location {
                         switch (this.choice) {
                             case ATTACK -> {
                                 System.out.println(this.lore.get("N021"));
+                                p.addItems(new Weapon());
                                 p.add_crew(this.character);
                             }
                             case GO ->{

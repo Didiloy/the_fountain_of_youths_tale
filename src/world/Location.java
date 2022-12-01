@@ -30,7 +30,7 @@ public abstract class Location {
             put("Earth", false);
             put("Enoplos", false);
             put("Farmako", false);
-            put("LastPlanet", false);
+            put("????", false);
             put("Najemnik", false);
             put("Zounkla", false);
         }};

@@ -28,7 +28,7 @@ public class World {
         planets.add(new Earth("Earth"));
         planets.add(new Enoplos("Enoplos"));
         planets.add(new Farmako("Farmako"));
-        planets.add(new LastPlanet("LastPlanet"));
+        planets.add(new LastPlanet("????"));
         planets.add(new Najemnik("Najemnik"));
         planets.add(new Zounkla("Zounkla"));
         for (Location p : planets) {

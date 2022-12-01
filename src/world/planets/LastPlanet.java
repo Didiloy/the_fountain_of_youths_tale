@@ -43,12 +43,8 @@ public class LastPlanet extends Location {
                             System.exit(0);
                         }
                         break;
-                    default:
-                        System.out.println("choisissez un autre argument");
                 }
                 break;
-            default:
-                System.out.println("choisissez un autre argument");
         }
     }
 
