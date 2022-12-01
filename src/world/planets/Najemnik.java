@@ -28,6 +28,7 @@ public class Najemnik extends Location {
                 switch (this.choice){
                     case GO: // Fuir de la 2nd bataille
                         System.out.println(this.lore.get("N011"));
+                        System.exit(0);
                         break;
                     case USE: // Attaquer la base
                         System.out.println(this.lore.get("N012"));
@@ -36,15 +37,13 @@ public class Najemnik extends Location {
                             case ATTACK ->{
                                 System.out.println(this.lore.get("N021"));
                                 p.add_crew(this.character);
-                                break;
                             }
                             case GO -> {
-                                System.out.println(this.lore.get("N021"));
-                                //SI NOUS FAISON UN SYSTEME D'ARMEE IL FAUT ENLEVER DES UNITES A CES ARMEES
-                                break;
+                                System.out.println(this.lore.get("N221"));
                             }
                         }
                 }
+                break;
 
             case USE: // Engager la 1ere bataille
                 System.out.println(this.lore.get("N002"));
@@ -62,12 +61,9 @@ public class Najemnik extends Location {
                             case ATTACK -> {
                                 System.out.println(this.lore.get("N021"));
                                 p.add_crew(this.character);
-                                break;
                             }
                             case GO ->{
-                                System.out.println(this.lore.get("N021"));
-                                //SI NOUS FAISON UN SYSTEME D'ARMEE IL FAUT ENLEVER DES UNITES A CES ARMEES
-                                break;
+                                System.out.println(this.lore.get("N222"));
                         }
                     }
                 }
