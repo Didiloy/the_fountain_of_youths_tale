@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="typos in Rapport_Projet.docx">
-      <change afterPath="$PROJECT_DIR$/src/resource/dummy.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test/FileHelperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/the_fountain_of_youths_tale.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/the_fountain_of_youths_tale.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/files/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/files/FileHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/World.java" afterDir="false" />
+    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="added FileHelperTest">
+      <change afterPath="$PROJECT_DIR$/test/test/parseArgTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669912224527</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="added FileHelperTest">
+      <created>1669915931404</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1669915931404</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,7 +285,8 @@
     <MESSAGE value="changed name of last planet,&#10;changed chaviar scalper story" />
     <MESSAGE value="now use the START_LOCATION constant,&#10;modified rapport,&#10;deleted comments main" />
     <MESSAGE value="typos in Rapport_Projet.docx" />
-    <option name="LAST_COMMIT_MESSAGE" value="typos in Rapport_Projet.docx" />
+    <MESSAGE value="added FileHelperTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="added FileHelperTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
