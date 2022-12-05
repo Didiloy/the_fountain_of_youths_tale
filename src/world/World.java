@@ -40,7 +40,7 @@ public class World {
         return planets;
     }
 
-    public Location transition(Player pl) {
+    public Location transition() {
         System.out.println(ANSIColor.ANSI_BLUE + "From here you can reach only a few planets:");
         this.currentPlanet.getExits().forEach((k, v) -> {
             if (v) System.out.print(k + ", ");
@@ -72,7 +72,7 @@ public class World {
         this.currentPlanet = this.planets.stream().filter(l -> l.getName().equals(START_LOCATION)).findFirst().get();
         this.currentPlanet.tellStory(p, "");
         do {
-            Location planete = transition(p);
+            Location planete = transition();
             if(planete == null) continue;
             planete.tellStory(p, this.currentPlanet.getName());
             this.currentPlanet = planete;

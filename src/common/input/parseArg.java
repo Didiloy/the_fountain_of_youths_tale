@@ -10,8 +10,7 @@ public class parseArg {
 
     public static Argument parseArgs(String[] args) throws UnrecognizableArgumentException, IncorrectNumberOfParameterException {
         List<String> listeArguments = new ArrayList<>(Arrays.stream(args).toList());
-        if(args.length == 0) return parseArgs(args);
-//        throw new IncorrectNumberOfParameterException("The args parameter of the parseArgs function is incorrect");
+        if(args.length == 0) throw new IncorrectNumberOfParameterException("The args parameter of the parseArgs function is incorrect");
         System.out.println(ANSIColor.ANSI_GREEN + "Valid answers are:");
         listeArguments.forEach(s -> System.out.print(s + ", "));
         System.out.print("QUIT\n"+ ANSIColor.ANSI_RESET);

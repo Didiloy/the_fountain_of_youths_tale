@@ -1,10 +1,11 @@
 package world.planets;
 
 import character.NPCharacter;
-import common.enums.Speciality;
 import character.Player;
+import common.enums.Speciality;
 import world.Location;
 
+import java.util.Objects;
 
 
 public class Zounkla extends Location {
@@ -22,7 +23,13 @@ public class Zounkla extends Location {
 
     @Override
     public void tellStory(Player p, String cameFrom) {
-        if (cameFrom.equals("Earth")) {
+        boolean astronomy = false;
+        for (NPCharacter character : p.getCrew()) {
+            if (Objects.requireNonNull(character.getSpeciality()) == Speciality.ASTRONOMY) {
+                astronomy = true;
+            }
+        }
+        if (!astronomy) {
             System.out.println(this.lore.get("storyFromEarth"));
 //            printCharByChar(this.lore.get("storyFromEarth"));
             fillChoice(new String[]{"yes", "no"});
@@ -51,7 +58,6 @@ public class Zounkla extends Location {
             switch (this.choice) {
                 case YES -> {
                     System.out.println(this.lore.get("ca1_0"));
-//                    printCharByChar(this.lore.get("ce1_0"));
                     fillChoice(new String[]{"yes", "no"});
                     switch (this.choice) {
                         case YES -> {
@@ -66,4 +72,5 @@ public class Zounkla extends Location {
         }
 
     }
+
 }

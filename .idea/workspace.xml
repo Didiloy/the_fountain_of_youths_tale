@@ -9,12 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="moved the Player class in the character package">
+    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="changed jar&#10;added serialUID to exception, compiled manually and removed warning">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/files/NotAllFilesException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/files/NotAllFilesException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/input/IncorrectNumberOfParameterException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/input/IncorrectNumberOfParameterException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/input/UnrecognizableArgumentException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/input/UnrecognizableArgumentException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_diagram/class_diagram.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/class_diagram/class_diagram.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/input/parseArg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/input/parseArg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/planets/Zounkla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Zounkla.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670251205495</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="changed jar&#10;added serialUID to exception, compiled manually and removed warning">
+      <created>1670252039826</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1670252039826</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,7 +310,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="deleted eclipse file" />
     <MESSAGE value="Created csv files for the planets&#10;added custom exception and new classes" />
     <MESSAGE value="Created csv files for the planets" />
     <MESSAGE value="modified gitignore" />
@@ -328,7 +334,8 @@
     <MESSAGE value="modified rapport" />
     <MESSAGE value="added jar an modified readme" />
     <MESSAGE value="moved the Player class in the character package" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved the Player class in the character package" />
+    <MESSAGE value="changed jar&#10;added serialUID to exception, compiled manually and removed warning" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed jar&#10;added serialUID to exception, compiled manually and removed warning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
