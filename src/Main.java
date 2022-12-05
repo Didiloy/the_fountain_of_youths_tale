@@ -1,8 +1,6 @@
 import common.files.NotAllFilesException;
-import player.Player;
-import world.Location;
+import character.Player;
 import world.World;
-import world.planets.*;
 
 import static common.files.FileHelper.verifyFiles;
 

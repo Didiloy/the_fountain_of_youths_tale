@@ -2,7 +2,7 @@ package world.planets;
 
 import character.NPCharacter;
 import common.enums.Speciality;
-import player.Player;
+import character.Player;
 import world.Location;
 
 public class Earth extends Location {

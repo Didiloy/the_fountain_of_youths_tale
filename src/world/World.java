@@ -3,7 +3,7 @@ package world;
 import common.enums.ANSIColor;
 import common.input.IncorrectNumberOfParameterException;
 import common.input.UnrecognizableArgumentException;
-import player.Player;
+import character.Player;
 import world.planets.*;
 
 import java.util.ArrayList;

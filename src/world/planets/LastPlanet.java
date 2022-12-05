@@ -2,7 +2,7 @@ package world.planets;
 
 import items.Item;
 import items.Weapon;
-import player.Player;
+import character.Player;
 import world.Location;
 
 public class LastPlanet extends Location {

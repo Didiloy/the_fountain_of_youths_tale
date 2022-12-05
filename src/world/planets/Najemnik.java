@@ -3,7 +3,7 @@ package world.planets;
 import character.NPCharacter;
 import common.enums.Speciality;
 import items.Weapon;
-import player.Player;
+import character.Player;
 import world.Location;
 
 public class Najemnik extends Location {

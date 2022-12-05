@@ -1,6 +1,5 @@
-package player;
+package character;
 
-import character.NPCharacter;
 import items.Item;
 import world.Location;
 import java.util.ArrayList;
@@ -11,9 +10,7 @@ public class Player {
     private List<Item> items = new ArrayList();
     private Location currentLocation;
 
-    public Player(){
-//        this.currentLocation = world.getName();
-    }
+    public Player(){}
 
     public void add_crew(NPCharacter npc){
         this.crew.add(npc);

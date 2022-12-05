@@ -4,7 +4,7 @@ import character.NPCharacter;
 import common.enums.Argument;
 import common.input.IncorrectNumberOfParameterException;
 import common.input.UnrecognizableArgumentException;
-import player.Player;
+import character.Player;
 
 import java.util.HashMap;
 import java.util.Map;
