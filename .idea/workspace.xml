@@ -9,21 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="added jar an modified readme">
+    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="moved the Player class in the character package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/World.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/planets/Astronomiya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Astronomiya.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/planets/Belli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Belli.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/planets/Dimidium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Dimidium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/planets/Earth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Earth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/planets/Enoplos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Enoplos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/planets/Farmako.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Farmako.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/planets/LastPlanet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/LastPlanet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/planets/Najemnik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Najemnik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/planets/Zounkla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Zounkla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/character/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/files/NotAllFilesException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/files/NotAllFilesException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/input/IncorrectNumberOfParameterException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/input/IncorrectNumberOfParameterException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/input/UnrecognizableArgumentException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/input/UnrecognizableArgumentException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669927393036</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="moved the Player class in the character package">
+      <created>1670251205495</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1670251205495</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,7 +327,8 @@
     <MESSAGE value="added parseArgTest" />
     <MESSAGE value="modified rapport" />
     <MESSAGE value="added jar an modified readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="added jar an modified readme" />
+    <MESSAGE value="moved the Player class in the character package" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved the Player class in the character package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

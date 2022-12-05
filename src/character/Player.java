@@ -6,9 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Player {
-    private List<NPCharacter> crew =  new ArrayList();
-    private List<Item> items = new ArrayList();
-    private Location currentLocation;
+    private List<NPCharacter> crew =  new ArrayList<>();
+    private List<Item> items = new ArrayList<>();
 
     public Player(){}
 
