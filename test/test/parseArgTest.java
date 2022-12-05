@@ -2,7 +2,7 @@ package test;
 
 import org.junit.jupiter.api.Test;
 
-import static common.input.parseArg.enumContains;
+import static common.input.ParseArg.enumContains;
 import static org.junit.jupiter.api.Assertions.*;
 
 class parseArgTest {

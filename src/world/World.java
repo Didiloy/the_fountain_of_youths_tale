@@ -9,7 +9,7 @@ import world.planets.*;
 import java.util.ArrayList;
 import java.util.Objects;
 
-import static common.input.parseArg.parseTransition;
+import static common.input.ParseArg.parseTransition;
 import static world.Location.START_LOCATION;
 
 public class World {

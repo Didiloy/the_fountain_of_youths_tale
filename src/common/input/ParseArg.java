@@ -5,7 +5,7 @@ import common.enums.Argument;
 
 import java.util.*;
 
-public class parseArg {
+public class ParseArg {
     private static final Scanner s = new Scanner(System.in);
 
     public static Argument parseArgs(String[] args) throws UnrecognizableArgumentException, IncorrectNumberOfParameterException {
@@ -23,7 +23,7 @@ public class parseArg {
         if (!enumContains(line))return parseArgs(args);
 //        if(line.contains(" ")) throw new IncorrectNumberOfParameterException("Incorrect number of parameter");
         if(line.contains(" ")) return parseArgs(args);
-        if(line.toLowerCase().equals("quit")) System.exit(0);
+        if(line.equalsIgnoreCase("quit")) System.exit(0);
         return Argument.valueOf(line);
     }
 

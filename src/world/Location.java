@@ -9,7 +9,7 @@ import character.Player;
 import java.util.HashMap;
 import java.util.Map;
 import static common.files.FileHelper.parseCsvFile;
-import static common.input.parseArg.parseArgs;
+import static common.input.ParseArg.parseArgs;
 
 public abstract class Location {
     protected String name;

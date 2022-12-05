@@ -9,12 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="changed jar&#10;added serialUID to exception, compiled manually and removed warning">
+    <list default="true" id="c4840f18-9da1-4d7b-8b9e-f6bd8679fde7" name="Changes" comment="found and resolved bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/class_diagram/class_diagram.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/class_diagram/class_diagram.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/input/parseArg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/input/parseArg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/input/parseArg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/input/ParseArg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/world/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/World.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/world/planets/Zounkla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/planets/Zounkla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test/parseArgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/test/parseArgTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670252039826</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="found and resolved bugs">
+      <created>1670258651596</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1670258651596</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,7 +318,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created csv files for the planets&#10;added custom exception and new classes" />
     <MESSAGE value="Created csv files for the planets" />
     <MESSAGE value="modified gitignore" />
     <MESSAGE value="exits of the planets" />
@@ -335,7 +342,8 @@
     <MESSAGE value="added jar an modified readme" />
     <MESSAGE value="moved the Player class in the character package" />
     <MESSAGE value="changed jar&#10;added serialUID to exception, compiled manually and removed warning" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed jar&#10;added serialUID to exception, compiled manually and removed warning" />
+    <MESSAGE value="found and resolved bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="found and resolved bugs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
